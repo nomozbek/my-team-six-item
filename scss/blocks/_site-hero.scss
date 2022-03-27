@@ -1,0 +1,110 @@
+.site-hero{
+  background-color: #004047;
+  padding-bottom: 210px;
+  background-image: url("/img/first-back-image.png"),
+                      url("/img/second-back-image.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 676px)+0px,calc(50% - -602px)960px;
+}
+
+.site-hero__heading {
+  padding-top: 100px;
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.site-hero__list{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.site-hero__item{
+  width: 350px;
+  height: 253px;
+  background-color: #012F34;
+  text-align: center;
+  position: relative;
+  margin-top: 70px;
+  padding: 32px 24px 56px 24px;
+  border-radius: 15px;
+}
+
+
+
+
+
+.site-hero__about-item{
+  position: absolute;
+  width: 350px;
+  height: 253px;
+  background-color: #012F34;
+  overflow: hidden;
+  z-index: -1;
+  text-align: center;
+  padding: 35px 24px 63px 24px;
+  border-radius: 15px;
+}
+
+.site-hero__wrap-div{
+  position: relative;
+}
+
+.site-hero__wrap-div:hover .site-hero__about-item {
+  position: absolute;
+  z-index: 1;
+  top: -32px;
+  left: -24px;
+}
+
+.site-hero__wrap-div:hover .site-hero__item::before {
+  display: block;
+}
+
+.site-hero__item-heading {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+}
+
+.site-hero__item-position {
+  font-family: 'Livvic';
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.site-hero__about-item-heading {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+
+}
+
+.site-hero__about-item-paragraph{
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.site-hero__about-item-image{
+  padding-top: 30px;
+}
+
+
